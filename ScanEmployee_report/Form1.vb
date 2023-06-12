@@ -8,7 +8,7 @@ Imports System.Text
 
 Public Class Form1
 
-    Dim connection As New SqlConnection("Data Source=192.168.10.114\APPSERVER;Initial Catalog=Application;User ID=sa;Password=Cyf027065055")
+    Dim connection As New SqlConnection("Data Source=192.168.10.114\APPSERVER;Initial Catalog=Application;User ID=sa;Password=XXXXXXX")
 
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         Dim result As DialogResult = MessageBox.Show("Are you sure you want to exit?", "Confirm Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
